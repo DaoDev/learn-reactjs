@@ -13,7 +13,7 @@ import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
-import Regsiter from 'features/Auth/components/Regsiter';
+import Register from 'features/Auth/components/Register';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -78,7 +78,7 @@ export default function Header() {
         aria-labelledby="form-dialog-title"
       >
         <DialogContent>
-          <Regsiter />
+          <Register />
         </DialogContent>
         <DialogActions>
           <Button onClick={handleClose} color="primary">
